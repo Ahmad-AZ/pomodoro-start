@@ -77,7 +77,8 @@ def count_down(count):
 window = Tk()
 window.title('Pomodoro')
 window.config(padx=100, pady=50, bg=YELLOW)
-
+tomato_img = PhotoImage(file="tomato.png")
+window.iconphoto(False, tomato_img)
 
 #Tomato
 # highlightthickness => to remove the white edges around the canvas
